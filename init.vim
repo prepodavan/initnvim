@@ -17,4 +17,3 @@ imap <buffer> <M-Right> <C-o>ew
 nmap <buffer> <M-Left> <C-o>b
 nmap <buffer> <M-Right> <C-o>ew
 
-runtime file_type.vim
