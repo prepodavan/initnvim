@@ -59,7 +59,7 @@ return require('packer').startup(function()
   use 'ray-x/go.nvim'
 
   use 'cespare/vim-toml'
-  use 'pest-parser/pest.vim f'
+  use 'pest-parser/pest.vim'
 
   use 'simrat39/rust-tools.nvim'
 
