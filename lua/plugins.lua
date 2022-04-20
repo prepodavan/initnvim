@@ -59,14 +59,9 @@ return require('packer').startup(function()
   use 'ray-x/go.nvim'
 
   use 'cespare/vim-toml'
-  use 'dense-analysis/ale'
-
   use 'pest-parser/pest.vim f'
 
   use 'simrat39/rust-tools.nvim'
 
-  if packer_bootstrap then
-    require('packer').sync()
-  end
   
 end)
