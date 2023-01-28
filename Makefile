@@ -30,4 +30,5 @@ cargo:
 .PHONY: go
 go:
 	$(GO) install mvdan.cc/sh/v3/cmd/shfmt@v3.6.0
+	$(GO) install github.com/go-delve/delve/cmd/dlv@v1.20.1
 
