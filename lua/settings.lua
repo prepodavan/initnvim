@@ -2,7 +2,7 @@ local M = {}
 
 -- theme: nightfox, tokyonight, tundra; default is catppuccin
 -- refer to the themes settings file for different styles
-M.theme = "tokyonight"
+-- M.theme = "tokyonight"
 -- Toggle global status line
 M.global_statusline = true
 -- use rg instead of grep
@@ -41,54 +41,54 @@ M.disable_dashboard_quick_links = false
 -- treesitter parsers to be installed
 -- one of "all", "maintained" (parsers with maintainers), or a list of languages
 M.treesitter_ensure_installed = {
-    "bash",
-    "cmake",
-    "css",
-    "dockerfile",
-    "go",
-    "hcl",
-    "html",
-    "java",
-    "javascript",
-    "json",
-    "kotlin",
-    "ledger",
-    "lua",
-    "markdown",
-    "markdown_inline",
-    "query",
-    "python",
-    "regex",
-    "toml",
-    "vim",
-    "yaml",
+  "bash",
+  "cmake",
+  "css",
+  "dockerfile",
+  "go",
+  "hcl",
+  "html",
+  "java",
+  "javascript",
+  "json",
+  "kotlin",
+  "ledger",
+  "lua",
+  "markdown",
+  "markdown_inline",
+  "query",
+  "python",
+  "regex",
+  "toml",
+  "vim",
+  "yaml",
 }
 
 M.mason_tool_installer_ensure_installed = {
-    -- LSP
-    "bash-language-server",
-    "dockerfile-language-server",
-    "json-lsp",
-    "marksman",
-    "typescript-language-server",
-    "texlab",
-    "ltex-ls",
-    "lua-language-server",
-    "pyright",
-    "terraform-ls",
-    "yaml-language-server",
-    -- Formatter
-    "black",
-    "prettier",
-    "stylua",
-    "shfmt",
-    -- Linter
-    "eslint_d",
-    "shellcheck",
-    "tflint",
-    "yamllint",
-    -- DAP
-    "debugpy",
+  -- LSP
+  "bash-language-server",
+  "dockerfile-language-server",
+  "json-lsp",
+  "marksman",
+  "typescript-language-server",
+  "texlab",
+  "ltex-ls",
+  "lua-language-server",
+  "pyright",
+  "terraform-ls",
+  "yaml-language-server",
+  -- Formatter
+  "black",
+  "prettier",
+  "stylua",
+  "shfmt",
+  -- Linter
+  "eslint_d",
+  "shellcheck",
+  "tflint",
+  "yamllint",
+  -- DAP
+  "debugpy",
 }
 
 return M
