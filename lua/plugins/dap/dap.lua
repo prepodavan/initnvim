@@ -58,6 +58,7 @@ local function create_mapping()
       name = "Debug",
       t = { "<cmd>lua require('dap').toggle_breakpoint()<cr>", "Toggle breakpoint" },
       c = { "<cmd>lua require('dap').continue()<cr>", "DAP continue" },
+      q = { "<cmd>lua require('plugins.dap.dap').close_all()<cr>", "Close all" },
     },
   }, { prefix = "<leader>", mode = "n", { silent = true } })
 end
@@ -67,6 +68,13 @@ function M.setup()
   configure_exts() -- Extensions
   configure_debuggers() -- Debugger
   create_mapping() -- which-key mapping
+end
+
+function M.close_all()
+  require("dapui").close()
+  local dap = require("dap")
+  dap.disconnect()
+  dap.close()
 end
 
 return M
