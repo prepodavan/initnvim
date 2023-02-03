@@ -6,6 +6,7 @@ local M = {
       patterns = {
         ".git",
         "package.json",
+        "Makefile",
         "go.mod",
       },
       -- detection_methods = { "lsp", "pattern" },
