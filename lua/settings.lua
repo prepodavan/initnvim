@@ -28,7 +28,7 @@ M.listchars = "eol:¬,tab:>·,trail:~,extends:>,precedes:<"
 -- Noice heavily changes the Neovim UI ...
 M.enable_noice = false
 -- todo(prepodavan): fix loads
-M.load_telescope_extensions = false
+M.load_telescope_extensions = true
 -- Disable winbar with nvim-navic location
 M.disable_winbar = true
 -- Number of recent files shown in dashboard
